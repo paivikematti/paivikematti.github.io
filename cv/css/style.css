@@ -1,0 +1,151 @@
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(2, 2, 2, 0.99) 0%, rgba(2, 2, 2, 0.99) 75%, #161616 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.masthead h1 {
+  font-family: 'Varela Round';
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.8rem;
+}
+
+.masthead h2 {
+  max-width: 20rem;
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .masthead h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead {
+  }
+  .masthead h1 {
+    font-size: 6.5rem;
+    line-height: 6.5rem;
+    letter-spacing: 0.8rem;
+  }
+  .masthead h2 {
+    max-width: 30rem;
+    font-size: 1.25rem;
+  }
+}
+
+.btn {
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+  font-family: 'Varela Round';
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  border: 0;
+}
+
+.btn-primary {
+  background-color: #f77300;
+}
+
+.btn-primary:hover {
+  background-color: #4f837f;
+}
+
+.btn-primary:focus {
+  background-color: #4f837f;
+  color: white;
+}
+
+.btn-primary:active {
+  background-color: #467370 !important;
+}
+
+.about-section {
+  padding-top: 5rem;
+  padding-bottom: 160px;
+  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+}
+
+@media (min-width: 992px) {
+  .projects-section .project-text {
+    padding: 5rem;
+  }
+  .projects-section .project-text hr {
+    border-color: #f77300;
+    border-width: .25rem;
+    width: 30%;
+  }
+}
+
+body {
+  color: white;
+  font-family: 'Nunito';
+  letter-spacing: 0.0625em;
+}
+
+a {
+  color: #f77300;
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.bg-black {
+  background-color: #161616 !important;
+}
+
+.bg-primary {
+  background-color: #f77300 !important;
+}
+
+.text-primary {
+  color: #f77300 !important;
+}
+
+footer {
+  margin-top: 70px;
+  padding: 5rem 0;
+}
+
+i {
+  font-size: 30px;
+  color: #f77300;
+}
+
+header i:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.prj-h1 {
+  color: black;
+}
+
+.project-text a {
+  color: #f77300;
+}
+
+.project-text a:hover {
+  color: white;
+}
+
+.pictures {
+  margin-top: 100px;
+}
+
+h2 {
+  text-decoration: underline;
+}
